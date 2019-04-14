@@ -21,11 +21,10 @@ class _SendMoneyState extends State<SendMoney> {
               scrollDirection: Axis.horizontal,
               children: <Widget>[
                 Container(
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(8),
-                  color: Color(0xffe3e3e3),
-
-                  ),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(8),
+                      color: Color(0xffe3e3e3),
+                    ),
                     margin: EdgeInsets.only(right: 15),
                     width: 200,
                     padding: EdgeInsets.all(15),
@@ -46,11 +45,11 @@ class _SendMoneyState extends State<SendMoney> {
                 Container(
                     margin: EdgeInsets.only(right: 15),
                     width: 200,
-decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(8),
-                  color: Color(0xffe3e3e3),
-
-                  ),                    padding: EdgeInsets.all(15),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(8),
+                      color: Color(0xffe3e3e3),
+                    ),
+                    padding: EdgeInsets.all(15),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -68,11 +67,11 @@ decoration: BoxDecoration(
                 Container(
                     margin: EdgeInsets.only(right: 15),
                     width: 200,
-decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(8),
-                  color: Color(0xffe3e3e3),
-
-                  ),                    padding: EdgeInsets.all(15),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(8),
+                      color: Color(0xffe3e3e3),
+                    ),
+                    padding: EdgeInsets.all(15),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -101,34 +100,30 @@ decoration: BoxDecoration(
               children: <Widget>[
                 Container(
                   decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(8),
-                    border: Border.all(
-                      color: Colors.grey
-                    )
-                  ),
-                   margin: EdgeInsets.only(right: 15),
+                      borderRadius: BorderRadius.circular(8),
+                      border: Border.all(color: Colors.grey)),
+                  margin: EdgeInsets.only(right: 15),
                   width: 200,
                   padding: EdgeInsets.all(15),
-                   child: Column(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: <Widget>[
-                      Container(
-                        padding: EdgeInsets.all(15),
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          color: Colors.green
+                  child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: <Widget>[
+                        Container(
+                          padding: EdgeInsets.all(15),
+                          decoration: BoxDecoration(
+                              shape: BoxShape.circle, color: Colors.green),
+                          child: Icon(
+                            Icons.add,
+                            color: Colors.white,
+                          ),
                         ),
-                        child: Icon(Icons.add, color: Colors.white,),
-                      ),
-                      Text('New recipient')
-                    ]
-                   ),
+                        Text('New recipient')
+                      ]),
                 ),
                 Container(
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8),
-                  color: Color(0xffe3e3e3),
-
+                    color: Color(0xffe3e3e3),
                   ),
                   margin: EdgeInsets.only(right: 15),
                   width: 200,
@@ -155,8 +150,7 @@ decoration: BoxDecoration(
                 Container(
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8),
-                  color: Color(0xffe3e3e3),
-
+                    color: Color(0xffe3e3e3),
                   ),
                   margin: EdgeInsets.only(right: 15),
                   width: 200,
@@ -183,9 +177,7 @@ decoration: BoxDecoration(
                 Container(
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8),
-                                      color: Color(0xffe3e3e3),
-
-
+                    color: Color(0xffe3e3e3),
                   ),
                   margin: EdgeInsets.only(right: 15),
                   width: 200,

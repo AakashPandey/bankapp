@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       initialRoute: '/',
-      routes: {    
+      routes: {
         '/': (context) => MyHomePage(),
         '/send': (context) => SendMoney(),
       },
